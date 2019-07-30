@@ -1,0 +1,184 @@
+ @import "https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css";
+ @import "https://unpkg.com/purecss@1.0.0/build/pure-min.css";
+ @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+background-color:white;}
+ .h1 {
+	text-align: center; 
+	color:white;
+ }
+ .h2{
+ text-align:left;
+ color:white;}
+ 
+ .container {
+ position: absolute;
+ top: 10%;
+ left: 30%;
+ margin-top: -50px;
+ margin-left: -50px;
+ width: 800px;
+ height: 700px;
+ text-align: center; 
+  background-color: black;
+  box-shadow: 5px 5px 5px grey;
+ }
+ .tab_bar 
+ {overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius:4px;
+  box-shadow: 5px 5px 5px grey;
+font-weight: bold;
+ margin: 0;
+  padding: 0;
+
+ }
+ .tab_bar button {
+	 font-family:Arial;
+ background-color: inherit;
+ color:white;
+  float: left;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20px;
+ }
+
+ .tab_bar button:hover {
+  background-color: grey;
+}
+.tab_bar img {
+margin-right: 5px;
+width : 20;
+ height : 20;
+ background-color: white;
+}
+
+.tab-content {
+width: 600px;
+display: inline-block;
+top: 30%;
+    left: 30%;
+  align-items: center;}
+
+.tab1, .tab2, .tab3, .tab4 {
+	width:100%;
+}
+
+
+.gesture {
+width: 400px;
+display: inline-block;
+height: 250px;
+ background-color: #ddd;
+top: 30%;
+    left: 30%;
+  align-items: center;
+}
+#dial-value{
+	width:97%;
+}
+
+ .button-secondary {
+   color: white;
+   border-radius: 4px;
+	padding: 10px;
+	background-color: black;
+	width: 90%;
+
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;			
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	
+}
+label{
+font-size:20px;
+color:white;}
+
+
+.button-secondary:hover {
+background-color:grey;
+}
+
+.contactclear, .addcontact{
+display:inline-block;
+
+border:1px solid #566963;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+width: 90%;
+}
+.contactclear:hover ,.addcontact:hover{
+border-color: rgba(255,255,255,1);
+}
+
+.contactclear, .addcontact{display:block;
+margin:0.2em auto;
+}
+
+.dialbtn ,.clearbtn,.deletebtn{
+	color: black;
+background-color:#dbe6c4;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  margin-left: 15px;
+  height: 40px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #6c7c7c;
+  color:white;
+  font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+  
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.magnifier, .low_vision{
+text-align:justify;
+font-size:20px;
+font-family:Arial;
+height:200px;
+overflow-y:scroll;
+color:white;
+}
+
+#contrast, #larger{
+width:200px;
+float:right;
+color:white;
+  border: 1px solid #ccc;
+  background-color:black;
+}
+
+
+.contrast_btn{
+	height:50px;
+	float:right;
+	width:800;
+}

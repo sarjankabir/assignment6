@@ -1,0 +1,204 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" >
+	<link rel="stylesheet" href="phone.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+	<script src="phone.js"></script>
+
+	<title>Simple Dialer Application</title>
+	</head>
+	<body class="body">
+	<div class="container">
+	<div class="contrast_btn">
+	<button id="contrast"class ="pure-button button-secondary " >Alter Contrast <i class="fa fa-exchange" style="color:white;padding-left :3px"></i></button>
+	<button id="larger"class ="pure-button button-secondary " >Magnify <i class="fa fa-search" style="color:white;padding-left :3px"></i></button>
+	</div>
+		<div class ="tab_bar">
+		 <button  class="pure-button" id = "tab1btn" ><img src="phone.svg"  >Dialer</button>
+		 <button  class="pure-button" id = "tab2btn" ><img  src="contact.png" >Contact List</button>
+		 <button  class="pure-button" id = "tab3btn" ><img  src="addcontact.png" >Create Contact</button>
+		 <button  class="pure-button" id = "tab4btn" ><img  src="info.png" >About this project</button>
+		</div>
+		
+		<div class ="tab-content">
+			<div  id ="tab_1" class="tab1">	
+			<h1 class="h1"> Dialer </h1>
+				<div class="pure-g">
+					<div class="pure-u-5-5">
+						</br>
+						
+								<form class="pure-form pure-u-5-5">
+									<input id="dial-value"  type="text" >
+								</form>
+						
+					</div>
+				</div>
+				<div class ="pure-g">
+					<div class="pure-u-1-3"> 
+						<button  class="pure-button button-secondary digit" >1</button>
+					</div>
+					<div class ="pure-u-1-3">
+					<button class ="pure-button button-secondary digit ">2</button>
+					</div>
+					<div class="pure-u-1-3">
+					<button class ="pure-button button-secondary digit" >3</button>
+					</div>
+				</div>
+				<br/>
+				<div class ="pure-g">
+					<div class="pure-u-1-3"> 
+						<button  class="pure-button button-secondary digit" >4</button>
+					</div>
+					<div class ="pure-u-1-3">
+					<button class ="pure-button button-secondary digit ">5</button>
+					</div>
+					<div class="pure-u-1-3">
+					<button class ="pure-button button-secondary digit" >6</button>
+					</div>
+				</div>
+				<br/>
+				<div class ="pure-g">
+					<div class="pure-u-1-3"> 
+						<button  class="pure-button button-secondary digit" >7</button>
+					</div>
+					<div class ="pure-u-1-3">
+					<button class ="pure-button button-secondary digit ">8</button>
+					</div>
+					<div class="pure-u-1-3">
+					<button class ="pure-button button-secondary digit" >9</button>
+					</div>
+				</div>
+				<br/>
+				<div class ="pure-g">
+					<div class="pure-u-1-3"> 
+						<button  class="pure-button button-secondary digit" >*</button>
+					</div>
+					<div class ="pure-u-1-3">
+					<button class ="pure-button button-secondary digit ">0</button>
+					</div>
+					<div class="pure-u-1-3">
+					<button class ="pure-button button-secondary digit" >#</button>
+					</div>
+				</div>
+				</br>
+				<div class ="pure-g">
+				<div class="pure-u-8-24"> 
+						<button  class="pure-button button-secondary deletebtn" >DELETE  <i class="fa fa-close" style="color:red;padding-left :3px"></i></button>
+					</div>	
+					<div class="pure-u-8-24"> 
+						<button   class="pure-button button-secondary dialbtn">  DIAL <i class="fa fa-phone" style="color:green;padding-left :3px"></i></button>
+					</div>
+					<div class="pure-u-8-24"> 
+						<button  class="pure-button button-secondary clearbtn" >CLEAR  <i class="fa fa-refresh" style="color:green;padding-left :3px"></i></button>
+					</div>		
+				</div>
+			</div>
+			
+			<div  id ="tab_2" class="tab2">	
+			<h1 class="h1"> Contact List </h1>
+			<div class="pure-g">
+					<div class="pure-u-2-5 chip">
+						 <img src="img_avatar.png" alt="Person" width="96" height="96">  Sir John Doe				
+					</div>
+					
+			</div>
+			<br/>
+			<div class="pure-g">
+					<div class="pure-u-2-5 chip">
+						 <img src="img_avatar.png" alt="Person" width="96" height="96">  Robert Brown						
+					</div>
+					<div class="pure-u-2-5 chip">
+						 <img src="img_avatar.png" alt="Person" width="96" height="96">  Neil Armstrong
+					</div>
+			</div>
+			<br/>
+			<div class="pure-g">
+					<div class="pure-u-2-5 chip">
+						 <img src="img_avatar.png" alt="Person" width="96" height="96">  Charles Xavier						
+					</div>
+					<div class="pure-u-2-5 chip">
+						 <img src="img_avatar2.png" alt="Person" width="96" height="96">  Ethinor Dolce
+					</div>
+			</div>
+			<br/>
+			<div class="pure-g">
+					<div class="pure-u-2-5 chip">
+						 <img src="img_avatar2.png" alt="Person" width="96" height="96">  Eliza Taylor Benedd						
+					</div>
+					<div class="pure-u-2-5 chip">
+						 <img src="img_avatar.png" alt="Person" width="96" height="96">  Walter Bruce Jr.
+					</div>
+			</div>
+			</div>
+			
+			<div  id ="tab_3" class="tab3">	
+				<h1 class ="h1"> Create Contact </h1>
+				<form class ="pure-form pure-form-aligned">
+					<fieldset>
+						<div class="pure-control-group">
+							<label for="name">Name :</label>
+							<input id="username" type="text" placeholder="Abcd Wxyz">
+						</div>
+						
+						<div class="pure-control-group">
+						<label for= "phone" >Phone Number :</label>
+						<input id ="phone" type="text" placeholder ="123-456-7890">
+						</div>
+						<div class="pure-control-group">
+						<label for= "email" >Email Address :</label>
+						<input id ="email" type="text" placeholder ="email@address.com">
+						</div>
+						
+						<div class="pure-g">
+							<div class="pure-u-12-24">
+							<button type="submit" class ="pure-button button-secondary contactclear"   >Clear <i class="fa fa-close" style="color:white;padding-left :3px"></i></button>
+							
+							</div>
+							<div class="pure-u-12-24">
+							
+							<button type="submit" class ="pure-button  addcontact  button-secondary"  >Create Contact <i class="fa fa-plus" style="color:white;padding-left :3px"></i></button>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			
+			<div  id ="tab_4" class="tab4">	
+				<h2 class ="h2"> Using the magnifier </h1>
+				<div class="magnifier">
+					<p> I have tested the Windows Magnifier app on the CNN News website. Pressing the Windows logo key‌ 
+					+ Plus sign (+) on the keyboard turns the Magnifier on. Pressing Windows logo key  + Esc turns it off.
+					When Magnifier is on, zoom in and out can be done by pressing the Windows logo key  + Plus sign (+) or Windows logo key  + Minus sign (-). 
+					You can also zoom in and out using the mouse by pressing Ctrl + Alt and rotating the wheel on your mouse.
+					The Magnifier is easy to use and has different magnification settings, which is very useful. I have used 200% of magnification.
+					There is also a high contrast mode in the settings, that makes the background dark and the text light. This is another 
+					useful feature . I also found that Magnifier provides three options for tracking elements on the screen: 
+					text insertion point, mouse pointer, and keyboard focus, the last one being more useful as since keyboard focus 
+					can be very helpful when accessing pull-down menus and other controls via the keyboard. Magnifier is easier to use via its onscreen user
+					interface, which makes it especially user-friendly for mouse users. However, I did find it challenging to move through the screen even to 
+					finish reading one sentence; it becomes tiresome. Also, magnification sometimes makes the alphabets blurred. I also found myself frequently
+					going out of focus while navigating through the magnifier.
+					
+					</p>
+				</div>
+				<h2 class ="h2"> Low vision modes</h1>
+				<div class="low_vision">
+					<p> I have included two kinds of low vision modes in this project, magnification mode and contrast alteration mode. At the top of the 
+					web page, two distinct buttons have been added to enable each of these modes. The button labelled 'Magnify' makes the fonts on the page larger
+					The other button labelled 'Alter contrast' changes the background and text color.Each button also has distinct icons to make them distinct for 
+					those who have difficulties in differentiating colors.
+					
+					</p>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+	</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+		<script src="phone.js"></script>
+	</body>
+</html>
